@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "PigeonBoys\\Fastsub\\": "src/"
+        }
+    },
+    "description": "A blazing-fast, Redis-powered subscription service for instant, cached access across projects.",
+    "license": "MIT",
+    "name": "pigeonboys/fastsub",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "predis/predis": "^2.3"
+    },
+    "type": "library"
+}
